@@ -57,4 +57,5 @@ except Exception as e:
 
 hook()
 loop.run_until_complete(asyncio.gather(*bots))
+logger.error("run_until_complet")
 loop.run_forever()
